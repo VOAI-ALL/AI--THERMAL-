@@ -1,0 +1,14 @@
+git remote add origin https://github.com/YOUR_USERNAME/thermal_fault_ai.git
+
+git remote set-url origin https://github.com/YOUR_USERNAME/thermal_fault_ai.git
+
+git remote -v
+git status
+git branch
+git push -u origin main
+
+git add .
+
+git commit -m "Update project"
+
+Remove-Item .git\index.lock
